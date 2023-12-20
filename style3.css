@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #efef7e, #FFFFFF);
+}
+
+header {
+    padding: 10px 0;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+}
+
+nav {
+    top: 60px;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin-top: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+/* Additional Styles for Bootstrap Components */
+.bg-primary {
+    background-color: #e8732af7 !important;
+    color: #fff;
+}
+
+.bg-warning {
+    background-color: #e6e607 !important;
+    background: linear-gradient(to top, #ffd700, #ffa500) !important;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+/* Mobile Styles */
+
+@media only screen and (max-width: 767px) {
+  
+/* Add this CSS to your existing styles or create a new CSS file */
+
+/* Add this CSS to your existing styles or create a new CSS file */
+
+#contact h2 {
+
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#contact #a::before {
+    content: "\1F3E0"; /* Unicode for home icon */
+    
+}
+
+#contact #a {
+    text-align: left;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row; /* or column, etc. */
+}
+
+#contact #g::before {
+    content: "\1F4DE"; /* Unicode for phone icon */
+    margin-right: 5px;
+}
+
+#contact #h1::before {
+    content: "\1F553"; /* Unicode for clock icon */
+    margin-right: 5px;
+}
+
+
+
+
+
+}

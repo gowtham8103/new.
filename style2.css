@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #f8f9fa; /* Bootstrap default light background color */
+    padding: 10px 0;
+}
+
+nav a {
+    color: #007bff; /* Bootstrap primary color */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #0056b3; /* Bootstrap primary color (darkened) on hover */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styles for your content */
+.content {
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 5px; /* Border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+h3 {
+    color: #007bff; /* Bootstrap primary color for headings */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .image-container {
+        margin-top: 20px;
+    }
+}
+.container {
+    display: flex;
+    align-items: center;
+  }
+
+  #in {
+    flex: .5; /* Take remaining space */
+  }
+
+  .image-container {
+    flex: 1;
+    align-items:right;
+  }
+
+  .image-container img {
+    
+    max-width: 100%;
+    height: auto;
+  }
+  
+.whatsapp{
+    
+    position: fixed;
+    transform: all .5s ease;
+    background-color: #25d366;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0,0,0,0.15);
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    bottom: 90px;
+    right: 20px;
+    border: 0;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+   
+}
+@keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .heartbeating-icon {
+    animation: heartbeat 1s infinite;
+  }
+/* Introduction Section */
+.container {
+    background: linear-gradient(to top, #ffffcc, #ffffff);
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+  }
+  
+  /* Home Section */
+  #home {
+    background: linear-gradient(to top, #ffffcc, #ffffff);
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+  }
+  
+  /* About Us Section */
+  #about {
+    background: linear-gradient(to top, #ffffcc, #ffffff);
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+  }
+  
+  /* Categories Section */
+  #categories {
+    background: linear-gradient(to top, #ffffcc, #ffffff);
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+  }
+  
+  /* Contact Section */
+  #contact {
+    background: linear-gradient(to top, #ffffcc, #ffffff);
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+  }
+  
+  /* Chat Section */
+  #chat {
+    background: linear-gradient(to top, #ffffcc, #ffffff);
+    padding: 20px; /* Optional: Add padding for better visual appearance */
+  }
+#h{
+  margin-left: 60px;
+
+  }
+  #contact h2 {
+
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#contact #a::before {
+    content: "\1F3E0"; /* Unicode for home icon */
+    
+}
+
+#contact #a {
+    text-align: left;
+    white-space: nowrap;
+}
+
+#contact #g::before {
+    content: "\1F4DE"; /* Unicode for phone icon */
+    margin-right: 5px;
+}
+
+#contact #h1::before {
+    content: "\1F553"; /* Unicode for clock icon */
+    margin-right: 5px;
+}
